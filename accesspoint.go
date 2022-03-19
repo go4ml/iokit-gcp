@@ -2,6 +2,8 @@ package iokit_gcp
 
 import (
 	"context"
+	"go4ml.xyz/errstr"
+	"go4ml.xyz/fu"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/storage/v1"
@@ -9,8 +11,6 @@ import (
 	"net/url"
 	"os"
 	"strings"
-	"sudachen.xyz/pkg/errstr"
-	"sudachen.xyz/pkg/fu"
 	"sync"
 )
 

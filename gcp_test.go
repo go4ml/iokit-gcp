@@ -2,7 +2,7 @@ package iokit_gcp
 
 import (
 	"fmt"
-	"sudachen.xyz/pkg/iokit"
+	"go4ml.xyz/iokit"
 	"gotest.tools/assert"
 	"math/rand"
 	"testing"
